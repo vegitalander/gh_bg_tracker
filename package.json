@@ -1,0 +1,72 @@
+{
+  "name": "gh_bg_tracker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "eslint": "eslint \"src/**/*.js\"",
+    "start": "concurrently \"yarn run dev:server\" \"yarn run dev:bundler\"",
+    "dev:server": "cross-env NODE_PATH=./src nodemon --exec \"babel-node src/server/server.js\" --ignore .reactful.json --ignore public/",
+    "dev:bundler": "webpack -w --mode=development",
+    "build:react": "cross-env NODE_ENV=production webpack --progress --mode=production",
+    "build:node": "babel src -d build --config-file ./babel-node.config.js --copy-files",
+    "build:all": "yarn install && yarn run build:react && yarn run build:node",
+    "prod:start": "cross-env NODE_ENV=production NODE_PATH=./build pm2 start -i max build/server/server.js --update-env --name gh_bg_trackerProd",
+    "prod:stop": "pm2 stop gh_bg_trackerProd",
+    "prod:reload": "pm2 reload --update-env gh_bg_trackerProd",
+    "prod:logs": "pm2 logs --update-env gh_bg_trackerProd",
+    "test": "jest",
+    "verify-tests": "jest --coverage"
+  },
+  "jest": {
+    "modulePaths": [
+      "./src"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>src/setupTests.js"
+    ]
+  },
+  "dependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/plugin-proposal-class-properties": "^7.17.12",
+    "@babel/plugin-transform-runtime": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/runtime": "^7.18.3",
+    "babel-loader": "^8.2.5",
+    "body-parser": "^1.20.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "morgan": "^1.10.0",
+    "pm2": "^5.2.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "regenerator-runtime": "^0.13.9",
+    "serialize-javascript": "^6.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-chunk-hash": "^0.6.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.17.10",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^14.2.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^28.1.0",
+    "concurrently": "^7.2.1",
+    "eslint": "^8.16.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.16",
+    "reactful": "^3.2.4"
+  }
+}
