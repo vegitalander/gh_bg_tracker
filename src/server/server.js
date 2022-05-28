@@ -1,5 +1,4 @@
 import express from 'express';
-import cors from 'cors';
 import bodyParser from 'body-parser';
 import morgan from 'morgan';
 import serialize from 'serialize-javascript';
@@ -10,7 +9,6 @@ import { serverRenderer } from 'renderers/server';
 const app = express();
 app.enable('trust proxy');
 app.use(morgan('common'));
-app.use(cors);
 
 app.use(express.static('public'));
 
