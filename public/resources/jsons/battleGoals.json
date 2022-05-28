@@ -498,8 +498,8 @@
   },
   {
     "name": "Feral",
-    "points": 72,
-    "expansion"1 "Satire",
+    "points": 71,
+    "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Feral.jpg",
     "xws": "feral"
   },
