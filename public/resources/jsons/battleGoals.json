@@ -175,330 +175,323 @@
     "xws": "zealot"
   },
   {
-    "name": "../images/battle-goals-back",
-    "points": 25,
-    "expansion": "Jaws Of The Lion",
-    "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-battle-goals-back.png",
-    "xws": "battlegoalsback"
-  },
-  {
     "name": "acrobat",
-    "points": 26,
+    "points": 25,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-acrobat.png",
     "xws": "acrobat"
   },
   {
     "name": "agoraphobe",
-    "points": 27,
+    "points": 26,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-agoraphobe.png",
     "xws": "agoraphobe"
   },
   {
     "name": "altruist",
-    "points": 28,
+    "points": 27,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-altruist.png",
     "xws": "altruist"
   },
   {
     "name": "assistant",
-    "points": 29,
+    "points": 28,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-assistant.png",
     "xws": "assistant"
   },
   {
     "name": "challenger",
-    "points": 30,
+    "points": 29,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-challenger.png",
     "xws": "challenger"
   },
   {
     "name": "closer",
-    "points": 31,
+    "points": 30,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-closer.png",
     "xws": "closer"
   },
   {
     "name": "conservator",
-    "points": 32,
+    "points": 31,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-conservator.png",
     "xws": "conservator"
   },
   {
     "name": "diehard",
-    "points": 33,
+    "points": 32,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-diehard.png",
     "xws": "diehard"
   },
   {
     "name": "egoist",
-    "points": 34,
+    "points": 33,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-egoist.png",
     "xws": "egoist"
   },
   {
     "name": "fast healer",
-    "points": 35,
+    "points": 34,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-fast-healer.png",
     "xws": "fasthealer"
   },
   {
     "name": "gambler",
-    "points": 36,
+    "points": 35,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-gambler.png",
     "xws": "gambler"
   },
   {
     "name": "hothead",
-    "points": 37,
+    "points": 36,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-hothead.png",
     "xws": "hothead"
   },
   {
     "name": "insomniac",
-    "points": 38,
+    "points": 37,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-insomniac.png",
     "xws": "insomniac"
   },
   {
     "name": "masochist",
-    "points": 39,
+    "points": 38,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-masochist.png",
     "xws": "masochist"
   },
   {
     "name": "mugger",
-    "points": 40,
+    "points": 39,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-mugger.png",
     "xws": "mugger"
   },
   {
     "name": "opener",
-    "points": 41,
+    "points": 40,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-opener.png",
     "xws": "opener"
   },
   {
     "name": "pacifist",
-    "points": 42,
+    "points": 41,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-pacifist.png",
     "xws": "pacifist"
   },
   {
     "name": "pickpocket",
-    "points": 43,
+    "points": 42,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-pickpocket.png",
     "xws": "pickpocket"
   },
   {
     "name": "pincushion",
-    "points": 44,
+    "points": 43,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-pincushion.png",
     "xws": "pincushion"
   },
   {
     "name": "plebeian",
-    "points": 45,
+    "points": 44,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-plebeian.png",
     "xws": "plebeian"
   },
   {
     "name": "prohibitionist",
-    "points": 46,
+    "points": 45,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-prohibitionist.png",
     "xws": "prohibitionist"
   },
   {
     "name": "ravager",
-    "points": 47,
+    "points": 46,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-ravager.png",
     "xws": "ravager"
   },
   {
     "name": "recluse",
-    "points": 48,
+    "points": 47,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-recluse.png",
     "xws": "recluse"
   },
   {
     "name": "sadist",
-    "points": 49,
+    "points": 48,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-sadist.png",
     "xws": "sadist"
   },
   {
     "name": "scrambler",
-    "points": 50,
+    "points": 49,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-scrambler.png",
     "xws": "scrambler"
   },
   {
     "name": "shadow",
-    "points": 51,
+    "points": 50,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-shadow.png",
     "xws": "shadow"
   },
   {
     "name": "shirker",
-    "points": 52,
+    "points": 51,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-shirker.png",
     "xws": "shirker"
   },
   {
     "name": "specialist",
-    "points": 53,
+    "points": 52,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-specialist.png",
     "xws": "specialist"
   },
   {
-    "name": "straggler",
-    "points": 54,
+    "name": "staggler",
+    "points": 53,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-straggler.png",
     "xws": "straggler"
   },
   {
     "name": "trailblazer",
-    "points": 55,
+    "points": 54,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-trailblazer.png",
     "xws": "trailblazer"
   },
   {
     "name": "transmitter",
-    "points": 56,
+    "points": 55,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-transmitter.png",
     "xws": "transmitter"
   },
   {
     "name": "weakling",
-    "points": 57,
+    "points": 56,
     "expansion": "Jaws Of The Lion",
     "image": "/resources/images/battle-goals/jaws-of-the-lion/jl-weakling.png",
     "xws": "weakling"
   },
   {
     "name": "Ambusher",
-    "points": 58,
+    "points": 57,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Ambusher.jpg",
     "xws": "ambusher"
   },
   {
     "name": "Assassin",
-    "points": 59,
+    "points": 58,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Assassin.jpg",
     "xws": "assassin"
   },
   {
     "name": "Bastion",
-    "points": 60,
+    "points": 59,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Bastion.jpg",
     "xws": "bastion"
   },
   {
     "name": "Bully",
-    "points": 61,
+    "points": 60,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Bully.jpg",
     "xws": "bully"
   },
   {
     "name": "Contagious",
-    "points": 62,
+    "points": 61,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Contagious.jpg",
     "xws": "contagios"
   },
   {
     "name": "Covetous",
-    "points": 63,
+    "points": 62,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Covetous.jpg",
     "xws": "covetous"
   },
   {
     "name": "Cuddler",
-    "points": 64,
+    "points": 63,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Cuddler.jpg",
     "xws": "cuddler"
   },
   {
     "name": "Discerning",
-    "points": 65,
+    "points": 64,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Discerning.jpg",
     "xws": "discerning"
   },
   {
     "name": "Distracted",
-    "points": 66,
+    "points": 65,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Distracted.jpg",
     "xws": "distracted"
   },
   {
     "name": "Drowsy",
-    "points": 67,
+    "points": 66,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Drowsy.jpg",
     "xws": "drowsy"
   },
   {
     "name": "Elitist",
-    "points": 68,
+    "points": 67,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Elitist.jpg",
     "xws": "elitist"
   },
   {
     "name": "Exterminator",
-    "points": 69,
+    "points": 68,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Exterminator.jpg",
     "xws": "exterminator"
   },
   {
     "name": "Fearful",
-    "points": 70,
+    "points": 69,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Fearful.jpg",
     "xws": "fearful"
   },
   {
     "name": "Feeble",
-    "points": 71,
+    "points": 70,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Feeble.jpg",
     "xws": "feeble"
@@ -506,202 +499,202 @@
   {
     "name": "Feral",
     "points": 72,
-    "expansion": "Satire",
+    "expansion"1 "Satire",
     "image": "/resources/images/battle-goals/satire/Feral.jpg",
     "xws": "feral"
   },
   {
     "name": "Finisher",
-    "points": 73,
+    "points": 72,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Finisher.jpg",
     "xws": "finisher"
   },
   {
     "name": "Hesitant",
-    "points": 74,
+    "points": 73,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Hesitant.jpg",
     "xws": "hesitant"
   },
   {
     "name": "Instigator",
-    "points": 75,
+    "points": 74,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Instigator.jpg",
     "xws": "instigator"
   },
   {
     "name": "Insulting",
-    "points": 76,
+    "points": 75,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Insulting.jpg",
     "xws": "insulting"
   },
   {
     "name": "Limping",
-    "points": 77,
+    "points": 76,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Limping.jpg",
     "xws": "limping"
   },
   {
     "name": "Lucky",
-    "points": 78,
+    "points": 77,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Lucky.jpg",
     "xws": "lucky"
   },
   {
     "name": "Marksman",
-    "points": 79,
+    "points": 78,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Marksman.jpg",
     "xws": "marksman"
   },
   {
     "name": "Miser",
-    "points": 80,
+    "points": 79,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Miser.jpg",
     "xws": "miser"
   },
   {
     "name": "Multitasker",
-    "points": 81,
+    "points": 80,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Multitasker.jpg",
     "xws": "multitasker"
   },
   {
     "name": "Paranoid",
-    "points": 82,
+    "points": 81,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Paranoid.jpg",
     "xws": "paranoid"
   },
   {
     "name": "Peacemonger",
-    "points": 83,
+    "points": 82,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Peacemonger.jpg",
     "xws": "peacemonger"
   },
   {
     "name": "Perforated",
-    "points": 84,
+    "points": 83,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Perforated.jpg",
     "xws": "perforated"
   },
   {
     "name": "Prosperous",
-    "points": 85,
+    "points": 84,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Prosperous.jpg",
     "xws": "prosperous"
   },
   {
     "name": "Reserved",
-    "points": 86,
+    "points": 85,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Reserved.jpg",
     "xws": "reserved"
   },
   {
     "name": "Restless",
-    "points": 87,
+    "points": 86,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Restless.jpg",
     "xws": "restless"
   },
   {
     "name": "Retaliator",
-    "points": 88,
+    "points": 87,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Retaliator.jpg",
     "xws": "retaliator"
   },
   {
     "name": "Ritualistic",
-    "points": 89,
+    "points": 88,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Ritualistic.jpg",
     "xws": "ritualistic"
   },
   {
     "name": "Scavenger",
-    "points": 90,
+    "points": 89,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Scavenger.jpg",
     "xws": "scavenger"
   },
   {
     "name": "Sharpshooter",
-    "points": 91,
+    "points": 90,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Sharpshooter.jpg",
     "xws": "sharpshooter"
   },
   {
     "name": "Slayer",
-    "points": 92,
+    "points": 91,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Slayer.jpg",
     "xws": "slayer"
   },
   {
     "name": "Sleepless",
-    "points": 93,
+    "points": 92,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Sleepless.jpg",
     "xws": "sleepless"
   },
   {
     "name": "Sociable",
-    "points": 94,
+    "points": 93,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Sociable.jpg",
     "xws": "sociable"
   },
   {
     "name": "Stalwart",
-    "points": 95,
+    "points": 94,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Stalwart.jpg",
     "xws": "stalwart"
   },
   {
     "name": "Stubborn",
-    "points": 96,
+    "points": 95,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Stubborn.jpg",
     "xws": "stubborn"
   },
   {
     "name": "Thorough",
-    "points": 97,
+    "points": 96,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Thorough.jpg",
     "xws": "thorough"
   },
   {
     "name": "Untouchable",
-    "points": 98,
+    "points": 97,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Untouchable.jpg",
     "xws": "untouchable"
   },
   {
     "name": "Wasteful",
-    "points": 99,
+    "points": 98,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Wasteful.jpg",
     "xws": "wasteful"
   },
   {
     "name": "Winded",
-    "points": 100,
+    "points": 99,
     "expansion": "Satire",
     "image": "/resources/images/battle-goals/satire/Winded.jpg",
     "xws": "winded"
