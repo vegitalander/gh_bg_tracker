@@ -1,26 +1,34 @@
-import React, {Component} from 'react';
-import axios from 'axios'
+import React from 'react';
+import jsonData from '../../public/resources/jsons/battleGoals.json'
 
-const api = axios.create({
-  baseURL: `https://github.com/any2cards/gloomhaven/blob/master/data/battle-goals.js`
-});
+const battleGoals = () => JSON.parse(JSON.stringify(jsonData));
 
-export class App extends Component {
-  constructor() {
-    console.log('In constructor');
-    super();
-    console.log('Before Get');
-    api.get('/').then(response => {
-      console.log('response.data');
-      console.log(response.data);
-    })
-  }
+const BattleGoalList = (props) => (
+  <>
+    {props.battleGoals.map(card => <BattleGoal key={card.points} {...card} />)}
+  </>
+);
 
-  render() {
-    return (
-      <div>
-        <h1>Helllo!</h1>
-      </div>
-    );
-  }
+const BattleGoal = (props) => {
+  const card = props;
+  console.log(card.image);
+
+  return(
+    <div className={"bgCard"}>
+      <img src={card.image} alt={card.name} style={styles}/>
+    </div>
+  );
 }
+
+export function App() {
+  return (
+    <div>
+      <h1>Battle Goals!?</h1>
+      <BattleGoalList battleGoals={battleGoals()} />
+    </div>
+  );
+}
+
+const styles = {
+  width: "250px",
+};
