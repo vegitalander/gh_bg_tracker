@@ -3,6 +3,8 @@ import jsonData from '../../public/resources/jsons/battleGoals.json'
 
 const battleGoals = () => JSON.parse(JSON.stringify(jsonData));
 
+const rand = require('random-seed').create();
+
 const BattleGoalList = (props) => (
   <>
     {props.battleGoals.map(card => <BattleGoal key={card.points} {...card} />)}
@@ -29,7 +31,35 @@ class Form extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    console.log(this);
+
+    const allBGs = battleGoals();
+    const maxBGNumber = allBGs.at(-1)["points"];
+    let randomNums = []
+    rand.seed(this.state.randomSeed)
+
+    for(let i = 0; i < (6 * this.state.numberOfCardsPerCharacter); i++){
+      let randomNumber = rand.intBetween(1, maxBGNumber)
+      if(randomNumber === 0){
+        i--
+        continue;
+      }
+
+      randomNums[i] = randomNumber
+    }
+    console.log(randomNums);
+
+    let cardsForEachCharacter = [];
+
+    for(let i = 0; randomNums.length > 0; i++)
+    {
+      console.log(randomNums.length);
+      cardsForEachCharacter[i] = []
+      for(let j = 0; j < this.state.numberOfCardsPerCharacter; j++){
+        cardsForEachCharacter[i].push(randomNums.shift());
+      }
+    }
+    console.log(cardsForEachCharacter);
+
 
   };
 
@@ -73,13 +103,11 @@ class Form extends Component {
 }
 
 export function App() {
+  let title = 'Battle Goals\u203D';
   return (
     <div>
-      <h1>Battle Goals!?</h1>
-      <Form>
-        <input />
-
-      </Form>
+      <h1>{title}</h1>
+      <Form />
       <BattleGoalList battleGoals={battleGoals()} />
     </div>
   );
