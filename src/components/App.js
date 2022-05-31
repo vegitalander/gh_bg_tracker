@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, useState} from 'react';
 import jsonData from '../../public/resources/jsons/battleGoals.json'
 
 const battleGoals = () => JSON.parse(JSON.stringify(jsonData));
@@ -13,7 +13,6 @@ const BattleGoalList = (props) => (
 
 const BattleGoal = (props) => {
   const card = props;
-  console.log(card.image);
 
   return(
     <div className={"bgCard"}>
@@ -34,7 +33,7 @@ class Form extends Component {
 
     const allBGs = battleGoals();
     const maxBGNumber = allBGs.at(-1)["points"];
-    let randomNums = []
+    let randomCards = []
     rand.seed(this.state.randomSeed)
 
     for(let i = 0; i < (6 * this.state.numberOfCardsPerCharacter); i++){
@@ -44,23 +43,30 @@ class Form extends Component {
         continue;
       }
 
-      randomNums[i] = randomNumber
+      allBGs.forEach(card => {
+        if(card.points === randomNumber){
+          randomCards[i] = card;
+        }
+      });
     }
-    console.log(randomNums);
 
     let cardsForEachCharacter = [];
 
-    for(let i = 0; randomNums.length > 0; i++)
+    for(let i = 0; randomCards.length > 0; i++)
     {
-      console.log(randomNums.length);
       cardsForEachCharacter[i] = []
       for(let j = 0; j < this.state.numberOfCardsPerCharacter; j++){
-        cardsForEachCharacter[i].push(randomNums.shift());
+        cardsForEachCharacter[i].push(randomCards.shift());
       }
     }
-    console.log(cardsForEachCharacter);
 
+    this.props.onSubmit(cardsForEachCharacter[this.state.characterNumber - 1]);
 
+    // return(
+    //   <div>
+    //     <BattleGoalList battleGoals={cardsForEachCharacter[this.state.characterNumber - 1]}/>
+    //   </div>
+    // );
   };
 
   handleTextInput = (event) => {
@@ -104,11 +110,21 @@ class Form extends Component {
 
 export function App() {
   let title = 'Battle Goals\u203D';
+  const [playerBattleGoals, setPlayerBattleGoals] = useState([]);
+  const getBattleGoals = (goals) => {
+    setPlayerBattleGoals(goals);
+  };
+
   return (
     <div>
       <h1>{title}</h1>
-      <Form />
-      <BattleGoalList battleGoals={battleGoals()} />
+      <Form playerBattleGoals={playerBattleGoals} setPlayerBattleGoals={setPlayerBattleGoals}
+            onSubmit={getBattleGoals}/>
+      {!!playerBattleGoals[0] &&
+        <div>
+          <BattleGoalList battleGoals={playerBattleGoals}/>
+        </div>
+      }
     </div>
   );
 }
